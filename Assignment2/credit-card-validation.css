@@ -1,0 +1,25 @@
+#num{
+    position: absolute;
+    left: 67%; 
+}
+
+#cardNumber{
+    position: absolute;
+    left: 40%;
+    width: 500px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+#row1{
+    margin-left: 45%;
+}
+
+#num2{
+    position: absolute;
+    left: 60%; 
+    bottom:80%;
+    font-size: 20px;
+    color:red;
+}

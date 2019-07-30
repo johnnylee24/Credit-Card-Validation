@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Zhaoqiang,Li</title>
+<link rel="stylesheet" href="credit-card-validation.css">
+    <script src="credit-card-validation.js"></script>
+    <script src="Credit-speace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-masker/1.2.0/vanilla-masker.min.js"></script>
+    <script src="assets/cardValidator.bundle.js"></script>
+
+</head>
+    
+<body>
+
+<div id="row1" class="row1">
+<div class="text">
+	
+<h1>Credit Validated</h1>
+  </div>
+</div>
+<form name="frm">   
+<!-- <input type="text" onkeyup="Valid()" name="carte"/>-->
+<!--  <input type="text" id="test" >-->
+<input type="text" id="cardNumber" maxlength="19" onKeyUp="check(); CreditCard(event)"  name="carte" onBlur="formatCreditCard()" onFocus="formatCreditCard()"/>
+
+<div id="num"></div>
+<div id="num2"></div>
+</form> 	
+
+
+
+
+
+</body>
+</html>
